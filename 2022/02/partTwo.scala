@@ -73,7 +73,7 @@ def scoreGame(them: Shape, result: Result): Int =
 
 
 @main def scoreTallier(fileName: String) = {
-    val lines = Source.fromFile(fileName).getLines.toList
+    val lines = Source.fromFile(fileName).getLines
     val finalScore = lines.map { line =>
         val them = parseShape(line.charAt(0))
         val you = parseResult(line.charAt(2))

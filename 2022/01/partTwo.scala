@@ -1,5 +1,5 @@
 package advent.of.code
-// scala partOne.scala input.txt 3
+// scala 2022/01/partTwo.scala 2022/01/input.txt 3
 
 import scala.io.Source
 import scala.annotation.tailrec
